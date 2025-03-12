@@ -30,7 +30,7 @@ import 'flexy-slider/dist/index.css'
 *** Options are not mandatory,without options component will behave as non navigational slider ***
 
 import React from "react";
-import { SliderWrapper }  from "flexy-slider";
+import FlexySlider  from "flexy-slider";
 
 import 'flexy-slider/dist/index.css'        // Mandatory
 
@@ -57,7 +57,7 @@ export default function App() {
     }
   };
   return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
@@ -76,7 +76,7 @@ export default function App() {
       <div>
         <h3>6</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
   );
 }
 
@@ -119,14 +119,14 @@ let options = {
 }
 
 return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
       <div>
         <h3>2</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
 );
 ```
 
@@ -150,14 +150,14 @@ let options = {
 }
 
 return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
       <div>
         <h3>2</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
 );
 ```
 | Name             | Default    | Description |
@@ -189,14 +189,14 @@ let options = {
 }
 
 return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
       <div>
         <h3>2</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
 );
 ```
 1) *Some useful properties to enhance navigation mode.*
@@ -226,14 +226,14 @@ let options = {
 }
 
 return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
       <div>
         <h3>2</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
 );
 
 ```
@@ -255,14 +255,14 @@ let options = {
 }
 
 return (
-    <SliderWrapper {...options}>
+    <FlexySlider {...options}>
       <div>
         <h3>1</h3>
       </div>
       <div>
         <h3>2</h3>
       </div>
-    </SliderWrapper>
+    </FlexySlider>
 );
 
 ```
