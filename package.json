@@ -8,6 +8,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/dgokul19/flexy-slider.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
