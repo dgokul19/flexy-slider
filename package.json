@@ -1,7 +1,7 @@
 {
   "name": "flexy-slider",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -27,13 +27,16 @@
     "react-dom": "^19.0.0"
   },
   "keywords": [
-    "react",
+    "flexy-slider",
+    "react-flexy-slider",
     "image-slider",
     "react-carousel",
     "carousel-component",
     "carousel-slider",
     "image-slider-automatic",
     "image-slider-with-buttons",
-    "react-carousel-component"
+    "react-carousel-component",
+    "responsive-slider",
+    "react-responsive-component"
   ]
 }
