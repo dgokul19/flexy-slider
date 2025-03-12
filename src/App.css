@@ -1,0 +1,17 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+.slider-box{ 
+  height: 200px;
+  line-height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container{
+  width :90%;
+  margin: 10% auto;
+} 
